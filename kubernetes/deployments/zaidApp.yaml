@@ -7,6 +7,8 @@ metadata:
     app: zaid-app
     test: test
 
+  annotations:
+    fluxcd.io/tag.zaid-app: glob:1.*
 spec:
   selector:
     matchLabels:
