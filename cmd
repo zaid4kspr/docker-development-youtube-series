@@ -13,3 +13,9 @@ fluxctl install \
 export FLUX_FORWARD_NAMESPACE=flux
 
 fluxctl list-workloads
+
+fluxctl policy --workload=default:deployment/zaid-deploy --tag-all='1.*'
+
+fluxctl list-images -w  default:deployment/zaid-deploy
+
+default:deployment/zaid-deploy

@@ -9,6 +9,8 @@ metadata:
 
   annotations:
     fluxcd.io/tag.zaid-app: glob:1.*
+    fluxcd.io/automated: 'true'
+
 spec:
   selector:
     matchLabels:
