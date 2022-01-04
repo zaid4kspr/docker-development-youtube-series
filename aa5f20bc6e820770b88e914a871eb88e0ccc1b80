@@ -1,0 +1,1 @@
+{"jobID":"94d0a6ce-0129-c483-1dcc-20f532dd69ce","spec":{"type":"policy","cause":{"Message":"","User":"Zaid Selmi \u003cselmizaid@gmail.com\u003e"},"spec":{"default:deployment/zaid-deploy":{"add":{"tag_all":"glob:1.*"},"remove":{}}}},"result":null}
