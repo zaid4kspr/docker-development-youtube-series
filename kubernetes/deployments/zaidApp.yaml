@@ -6,9 +6,7 @@ metadata:
   labels:
     app: zaid-app
     test: test
-  annotations:
-    fluxcd.io/tag.zaid-app: semver:~1.0
-    fluxcd.io/automated: 'true'
+
 spec:
   selector:
     matchLabels:
