@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: zaid-app
-        image: nginx:1.21.5
+        image: zaidon/node:1.5
         imagePullPolicy: Always
         ports:
         - containerPort: 80
